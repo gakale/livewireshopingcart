@@ -152,7 +152,17 @@ composer require livewire/livewire
 
 # Contribution
 
-Contributions are welcome! Please submit a pull request or open an issue for any improvements or fixes.
+## Contribution
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+Please ensure all new features include tests and documentation.
 
 ### License
 
