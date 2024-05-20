@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LivewireShoppingCart;
+namespace LivewireShopping\LivewireShoppingCart;
 
 use Illuminate\Support\Facades\Facade;
 

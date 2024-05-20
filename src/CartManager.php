@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LivewireShoppingCart;
+namespace LivewireShopping\LivewireShoppingCart;
 
 class CartManager
 {
