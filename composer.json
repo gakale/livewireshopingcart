@@ -1,5 +1,5 @@
 {
-  "name": "vendor/livewire-shopping-cart",
+  "name": "livewireshopping/livewire-shopping-cart",
   "description": "A Laravel e-commerce package with Livewire",
   "type": "library",
   "license": "MIT",
@@ -16,16 +16,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\LivewireShoppingCart\\": "src/"
+      "livewireshopping\\LivewireShoppingCart\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Vendor\\LivewireShoppingCart\\CartServiceProvider"
+        "livewireshopping\\LivewireShoppingCart\\CartServiceProvider"
       ],
       "aliases": {
-        "Cart": "Vendor\\LivewireShoppingCart\\CartFacade"
+        "Cart": "livewireshopping\\LivewireShoppingCart\\CartFacade"
       }
     }
   }

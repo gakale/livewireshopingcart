@@ -13,7 +13,7 @@ composer require vendor/livewire-shopping-cart
 ## Configuration
 
 ```php
-php artisan vendor:publish --provider="Vendor\LivewireShoppingCart\CartServiceProvider" --tag="config"
+php artisan vendor:publish --provider="LivewireShopping\LivewireShoppingCart\CartServiceProvider" --tag="config"
 
 This will create a cart.php file in the config folder where you can modify the cart settings.
 
