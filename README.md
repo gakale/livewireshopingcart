@@ -7,7 +7,7 @@ A Laravel package for a dynamic e-commerce cart system using Livewire. Add, remo
 You can install the package via Composer:
 
 ```bash
-composer require vendor/livewire-shopping-cart
+composer require livewireshopping/livewire-shopping-cart
 ```
 
 ## Configuration
