@@ -1,0 +1,32 @@
+{
+  "name": "vendor/livewire-shopping-cart",
+  "description": "A Laravel e-commerce package with Livewire",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gnakaleh",
+      "email": "gnakaleroland@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "livewire/livewire": "^3.0",
+    "laravel/framework": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\LivewireShoppingCart\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vendor\\LivewireShoppingCart\\CartServiceProvider"
+      ],
+      "aliases": {
+        "Cart": "Vendor\\LivewireShoppingCart\\CartFacade"
+      }
+    }
+  }
+}
